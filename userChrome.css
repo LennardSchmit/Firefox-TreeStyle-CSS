@@ -1,0 +1,54 @@
+#TabsToolbar {
+    display: flex;
+    justify-content: flex-end;
+    height: 0 !important;
+    background-color: #2b2a33 !important;
+}
+
+#TabsToolbar > .toolbar-items {
+    visibility: collapse !important;
+}
+
+#sidebar-header {
+  display: none;
+}
+
+#navigator-toolbox {
+    background-color: #333;
+}
+
+#main-window[sizemode="maximized"] #nav-bar {
+  margin-top: -24px;
+  padding-right: 138px;
+}
+
+.titlebar-button>.toolbarbutton-icon {
+  /* change numbers at your needs - size of buttons */
+    height: 15px !important;
+    min-height: 15px !important;
+    width: 15px !important;
+    min-width: 15px !important;
+}
+
+#main-window[sizemode="normal"] #nav-bar {
+  margin-top: -30px;
+  padding-right: 138px;
+}
+
+/*TREE STYLE*/
+#sidebar-header {
+    border-color: #454545 !important;
+}
+
+/*Removes Tree Header*/
+.sidebar-placesTreechildren{
+    color: #ccc;
+    background-image: none;
+    background-color: transparent;
+}
+
+.sidebar-placesTreechildren::-moz-tree-row(hover) {
+    color: #000 !important;
+    background-image: none !important;
+    background-color: #fff2 !important;
+}
